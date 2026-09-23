@@ -47,10 +47,6 @@
 - 목적별 파일 분리
 - 재사용 가능한 코드·데이터 자산 구성
 
-## 개선 과제
-
-- 의존성 버전 고정
-- 환경변수 기반 경로·설정 관리
 
 
 
@@ -74,3 +70,7 @@ python coco2yolo.py convert_loop (image_path) (json_path) (output_path)
 ````
 python totxt.py json2txt (output_path)
 ````
+## 개선 과제
+
+- 의존성 버전 고정
+- 환경변수 기반 경로·설정 관리
